@@ -1,0 +1,101 @@
+body, button, input, select, textarea {
+    font: 12px/1.5 "Microsoft YaHei"
+    "Microsoft JhengHei", STHeiti, MingLiu;
+    color: #666;
+}
+
+.main{
+    width:100%;
+    height:796px;
+    background:url("../images/img_enterpriseLogin/bground.jpg") no-repeat;
+    background-size:100% 796px;
+
+}
+.login-body{
+    width:980px;
+    margin:0 auto;
+    text-align:center;
+    position:relative;
+    font-family:"Microsoft YaHei";
+}
+
+.login-body-inner{
+    width:430px;
+    padding-top:65px;
+    padding-left:295px;
+    margin:0 auto;
+    text-align:center;
+
+}
+.login-body-inner-inner{
+    width:100%;
+    margin:0 auto ;
+    float:right;
+    background-color:#ffffff;
+    box-shadow: 4px 4px 2px 2px darkgrey;
+}
+div {
+    display: block;
+}
+.row{
+    position:relative;
+    padding-bottom:20px;
+}
+
+label {
+    position:absolute;
+    padding-left:10px;
+    padding-top:15px;
+    cursor: default;
+}
+.text-type{
+    width: 250px;
+    height: 20px;
+    color: rgb(153, 153, 153);
+    font-family:"Microsoft YaHei";
+    padding: 15px 0px 15px 85px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 6px
+}
+.row .select_box{
+    position:relative;
+    height:100%;
+    overflow:hidden;
+    padding-left:4px;
+
+}
+
+ .row .select_box select {
+
+    margin-right: 6px;
+    width: 105px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    font-family: "Microsoft YaHei";
+    padding: 10px 0px 10px 15px;
+    border-radius: 6px;
+
+}
+.fl {
+    float: left;
+}
+.submit_style {
+    width: 330px;
+    height: 50px;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 6px;
+    background: #009688;
+    font: bold 18px/50px "Microsoft YaHei";
+}

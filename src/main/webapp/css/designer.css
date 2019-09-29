@@ -1,0 +1,331 @@
+
+body {
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+}
+.container {
+    padding-bottom: 220px;
+}
+.container {
+    width: 1220px;
+    margin: 0 auto;
+}
+body, button, input, select, textarea {
+    color: rgb(102, 102, 102);
+    font: 12px/1.5 "Microsoft YaHei", "微软雅黑", "黑体", "宋体", "Microsoft JhengHei", "华文细黑", STHeiti, MingLiu;
+}
+.breadcrumb {
+    position: relative;
+}
+.breadcrumb {
+    padding: 10px 0;
+    font-size: 12px;
+}
+.clearfix {
+    zoom: 1;
+}
+dl, ol, ul {
+    list-style: none;
+}
+.breadcrumb li {
+    float: left;
+    height: 20px;
+    margin-right: 8px;
+    line-height: 20px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.breadcrumb .breadcrumb-arrow {
+    float: left;
+    width: 5px;
+    height: 9px;
+    margin: 6px 0 0 7px;
+    background-position: -24px -672px;
+}
+.global-bg {
+    background: url(../images/img_designer/next.png) no-repeat 0 0;
+}
+.clearfix:after{
+    display:block;
+    height:0;
+    clear:both;
+    content:" ";
+    visibility:hidden;
+}
+.designer-detail .designer-intro {
+    float: left;
+    width: 200px;
+    padding: 30px 20px;
+    background: #fff;
+}
+.avatar {
+    border-radius: 50%;
+}
+.designer-intro .designer-note .avatar .avatar-box {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    text-align: center;
+}
+.designer-intro .designer-note .designer-name {
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+    margin: 20px auto 10px;
+    height: 26px;
+    line-height: 26px;
+}
+.designer-intro .designer-note .designer-name .name {
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+    overflow: hidden;
+    max-width: 120px;
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+element.style {
+    vertical-align: inherit;
+}
+.avatar-job {
+    vertical-align: text-top;
+}
+.designer-intro .designer-note .designer-exp {
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+}
+.designer-intro .designer-note .designer-exp span {
+    padding: 0 5px;
+}
+.designer-intro .designer-note .designer-exp span {
+    padding: 0 5px;
+}
+.text-center {
+    text-align: center;
+}
+.designer-intro .designer-note .reserve {
+    display: inline-block;
+    padding: 0 16px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    background: #ff5a00;
+    color: #fff;
+    border-radius: 2px;
+    margin: 20px auto;
+    font-size: 16px;
+}
+a {
+    font-family: "Microsoft YaHei","微软雅黑," "黑体" , "宋体", "Microsoft JhengHei", "华文细黑", STHeiti, MingLiu;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none !important;
+}
+.designer-desc .desc-item:not(:last-child) {
+    margin-bottom: 30px;
+}
+.designer-case {
+    float: right;
+    width: 960px;
+    background: #fff;
+    padding: 30px 30px 40px;
+    box-sizing: border-box;
+}
+.designer-case .designer-case-title {
+    margin: 0 10px 20px;
+}
+element.style {
+    position: relative;
+    height: 584px;
+}
+element.style {
+    position: absolute;
+    left: 10px;
+    top: 0px;
+}
+
+.case-img img {
+    width: 100%;
+}
+img {
+    border: 0;
+}
+img {
+    border: 0;
+}
+.designer-case .case-list .case-item {
+    float: left;
+    width: 280px;
+    height: 272px;
+    background: #fff;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+    overflow: hidden;
+}
+.designer-case .case-item .case-img {
+    width: 100%;
+    height: 190px;
+    overflow: hidden;
+    position: relative;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.designer-case .designer-case-title h3 {
+    display: inline;
+    font-size: 20px;
+    color: #333;
+}
+.designer-case .case-item .case-intro {
+    padding: 0px 10px 20px;
+    position: relative;
+}
+.designer-case .case-item .case-intro .case-name {
+    font-size: 16px;
+    color: #333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.designer-case .case-item .case-intro .case-tag {
+    font-size: 12px;
+    color: #999;
+    line-height: 20px;
+
+}
+.designer-case .case-item .case-intro .card-cost {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    font-size: 12px;
+    color: #999;
+}
+.designer-case .case-item .case-intro .card-cost span {
+    color: #ff5a00;
+}
+p {
+    position:relative;
+    display:inline;
+
+}
+
+.clearfix:after {
+    display: block;
+    height: 0;
+    clear: both;
+    content: " ";
+    visibility: hidden;
+}
+element.style {
+    text-align: center;
+    color: #999;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.footer {
+    position: relative;
+    z-index: 2;
+    display: table;
+    width: 100%;
+    margin-top: 60px;
+}
+.footer {
+    position: relative;
+    z-index: 2;
+    display: table;
+    width: 100%;
+    margin-top: 60px;
+}
+iframe#clsIframe {
+    position: absolute;
+}
+#popupContainer, #popupMask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+#popupMask {
+    z-index: 8000;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: .75;
+    filter: alpha(opacity=75);
+}
+#popupContainer {
+    z-index: 10001;
+    padding: 0;
+    border-radius: 10px;
+}
+#popupContainer {
+    z-index: 10001;
+    padding: 0;
+    border-radius: 10px;
+}
+#popupInner {
+    background-color: #fff;
+}
+#popupTitleBar {
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+}
+element.style {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+#popupFrame {
+    position: relative;
+    z-index: 8002;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+/*iframe[Attributes Style] {
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    width: 100%;
+    height: 100%;
+}*/
+iframe {
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+
+.service-bar, .slide-help-new {
+    display: none;
+}
+.service-bar {
+    position: fixed;
+    bottom: 250px;
+    right: 0;
+    z-index: 101;
+    width: 48px;
+    height: 293px;
+    border: 1px solid #eee;
+}

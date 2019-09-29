@@ -1,0 +1,186 @@
+body{
+    margin:0;
+    padding:0;
+    background-image: url("../images/bg01.jpg");
+}
+/*顶部导航*/
+.top{
+    width:100%;
+    height:95px;
+    background-color: #e8eaf1;
+    /*background-color: #f0f0f0;*/
+    opacity: 0.9;
+}
+.header-nav-first{
+    width:100%;
+    height:35px;
+    line-height: 35px;
+    /*background-color: #BDE0D9;*/
+    background-color: #BDE0D9;
+
+}
+/*左边：定位*/
+.nav-first{
+    width:1290px;
+    margin:0 auto;
+    display: flex;
+    flex-direction: row;
+}
+.nav-first-left{
+    flex: 1;
+}
+.city-switchhover{
+    position: relative;
+    font-size: 12px;
+
+}
+.city-switchhover span:nth-child(2){
+    color: #2d3436;
+    margin-left:20px;
+}
+.city-switchhover img{
+    position: absolute;
+    top:7px;
+    left:0px;
+}
+.city-switchhover .nav-change{
+    color: #0CB46A;
+}
+/*右边：下拉菜单*/
+.nav-first-right{
+    flex: 1;
+
+}
+.nav-first-right .layui-nav{
+    background-color:transparent;
+    float:right;
+}
+.nav-first-right .layui-nav .layui-nav-item a{
+    color: #2d3436;
+    font-size: 12px;
+    height: 35px;
+    line-height: 35px;
+}
+.nav-first-right .layui-nav .layui-nav-item a:hover{
+    color: #2d3436;
+}
+.layui-nav-item .nav-child {
+    top:35px;
+}
+/*咨询热线*/
+.tel-span{
+    color: #29a948;
+    font-size: 12px;
+}
+
+/*功能导航*/
+.header-nav-box{
+    width:1290px;
+    margin:0 auto;
+    text-align: center;
+}
+.header-nav-box .layui-nav{
+    background-color: transparent;
+    display: inline-block;
+}
+.header-nav-box .layui-nav .layui-nav-item{
+    margin: 0 30px;
+}
+.header-nav-box .layui-nav .layui-nav-item a{
+    position: relative;
+    font-size: 16px;
+    color: #000;
+}
+.header-nav-box .layui-nav .layui-nav-item a:hover{
+    color: #006400;
+}
+.layui-nav-item .box-child {
+    top:62px;
+}
+/*箭头*/
+.arrow-icon{
+    display: inline-block;
+    width:0;
+    height:0;
+    position: absolute;
+    top: 26px;
+    right: 0px;
+    border:6px solid;
+    border-color: #cccccc transparent transparent transparent;
+    transition: all 0.2s;
+}
+.header-nav-box .layui-nav .layui-nav-item a:hover .arrow-icon{
+    top: 20px;
+    border-color: transparent transparent #ffffff transparent;
+}
+.nav-item :hover .arrow-icon{
+    top: 20px;
+    border-color: transparent transparent #ffffff transparent;
+}
+
+/*功能导航下拉菜单 内容*/
+.nav-item{
+    /*display: none;*/
+    width:100%;
+    height:130px;
+    line-height:32px;
+    border-top:1px solid #BDE0D9;
+    background-color: #e8eaf1;
+}
+.item{
+    width:1290px;
+    margin:18px auto;
+    text-align: center;
+}
+.item .content-list{
+    text-align: left;
+    display: inline-block;
+    margin-right: 60px;
+}
+.content-list a{
+    margin-left: 20px;
+}
+.content-list a:hover{
+    color: #0CB46A;
+}
+/* > 箭头*/
+.content-list-title{
+    position: relative;
+}
+.content-list-icon{
+    position: absolute;
+    top:0px;
+    right: -20px;
+    display: inline-block;
+    width:16px;
+    height: 16px;
+    background-image: url("../images/arrow-right.png");
+}
+.content-list-title:hover .content-list-icon{
+    background-image: url("../images/arrow-left-hover.png");
+}
+
+
+/*搜索框*/
+.nav-search{
+    display: inline-block;
+    width: 300px;
+    text-align: left;
+}
+.search-info{
+    width:200px;
+    height: 32px;
+    margin-left: 50px;
+    border-radius: 5px;
+    border:0;
+    transition: width 1s;
+    background-color: #ffffff;
+}
+.search-info:hover{
+    width:240px;
+}
+/*****************************************页面主体*******************************************/
+.container{
+    width:90%;
+    margin:0 auto;
+}

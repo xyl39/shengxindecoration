@@ -1,0 +1,461 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #F5F5F5;
+}
+
+a{
+	text-decoration: none;
+	color: gray;
+	font-size: 12px;
+}
+
+.navi{
+	margin: 10px 0 10px 0;
+}
+
+.navi a:last-child{
+	color: black;
+}
+
+.navi-item:hover{
+	color: orangered;
+}
+
+.navi-item::after{
+	margin-left: 5px;
+	content: ">";
+}
+
+.mycontainer{
+	width: 1220px;
+	height: auto;
+	margin: 50px auto 0 auto;
+}
+
+.info{
+	width: 100%;
+	height: 410px;
+	background-color: white;
+	/*border: 1px solid black;*/
+}
+
+.play{
+	width: 480px;
+	height: 330px;
+	margin-top: 40px;
+	margin-left: 40px;
+	float: left;
+	/*border: 1px solid blue;*/
+}
+
+.play img:first-child{
+	width: 480px;
+	height: 260px;
+}
+
+.smallimg{
+	width: 476px;
+	height: 56px;
+	display: flex;
+	justify-content: space-between;
+	margin: 9px auto 0 auto;
+}
+
+.play .smallimg img{
+	width: 84px;
+	height: 56px;
+}
+
+.smallimg img:first-child{
+	border: 2px solid limegreen;
+}
+
+.info-right{
+	width: 625px;
+	height: 330px;
+	margin-top: 40px;
+	margin-left: 40px;
+	float: left;
+	/*border: 1px solid blue;*/
+}
+
+.com-name{
+	font-size: 28px;
+	color: #333333;
+	font-weight: bold;
+	margin-right: 15px;
+}
+
+.com-license{
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	font-size: 12px;
+	text-align: center;
+	color: white;
+	margin-right: 4px;
+	background-color: #5CDBD3;
+}
+
+.com-license-pass{
+	background-color: #FFAD77;
+}
+
+.deposit{
+	color: #666666;
+	font-size: 14px;
+	margin-right: 5px;
+}
+
+.service-tag{
+	display: inline-block;
+	font-size: 12px;
+	margin: 8px 4px 0 0;
+	padding: 0 8px;
+	color: #FF8A00;
+	border: 1px solid #FF8A00;
+}
+
+.service-tag:last-of-type{
+	color: #57A5FF;
+	border: 1px solid #57A5FF;
+	
+}
+
+.service-num{
+	width: 300px;
+	height: 52px;
+	margin-top: 35px;
+	font-size: 20px;
+	color: #333333;
+	font-weight: bold;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.service-num p{
+	width: 33%;
+	text-align: center;
+}
+
+.label{
+	color: #666666;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.tel{
+	height: 28px;
+	margin-top: 38px;
+	color: #333333;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 28px;
+}
+
+.tel img{
+	width: 20px;
+	height: 20px;
+	position: relative;
+	top: 2px;
+	margin-right: 8px;
+}
+
+.address{
+	color: #666666;
+	font-size: 14px;
+}
+
+.btn{
+	width: 180px;
+	height: 48px;
+	background-color: #FF5A00;
+	margin-top: 40px;
+	text-align: center;
+	line-height: 48px;
+	float: left;
+}
+
+.btn a{
+	display: block;
+	width: 180px;
+	height: 48px;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.per-num{
+	float: left;
+	margin-top: 55px;
+	margin-left: 10px;
+	color: #999999;
+	font-size: 12px;
+}
+
+.per-num span{
+	color: #FF5A00;
+}
+
+.design-example{
+	width: 900px;
+	height: 596px;
+	margin-top: 20px;
+	padding: 30px 30px 12px 30px;
+	background-color: white;
+	float: left;
+}
+
+.title-bar{
+	width: 880px;
+	height: 24px;
+	margin: 0 10px 16px;
+	position: relative;
+}
+
+.title-bar span{
+	font-size: 18px;
+	color: #333333;
+}
+
+.title-bar a{
+	font-size: 14px;
+	color: #666666;
+	position: absolute;
+	right: 0px;
+	top: 7px;
+}
+
+.design-par{
+	width: 900px;
+	height: 556px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	/*border: 1px solid salmon;*/
+}
+
+.design-item{
+	width: 280px;
+	height: 260px;
+	/*border: 1px solid black;*/
+}
+
+.design-item img{
+	width: 280px;
+	height: 190px;
+}
+
+.item-info{
+	width: 260px;
+	height: 48px;
+	margin: 12px 10px 0;
+	position: relative;
+}
+
+.item-name{
+	font-size: 16px;
+	color: #333333;
+}
+
+.item-detail{
+	font-size: 12px;
+	color: #999999;
+	margin-top: 10px;
+	float: left;
+}
+
+.item-price{
+	font-size: 12px;
+	color: #999999;
+	float: left;
+	position: absolute;
+	top: 31px;
+	right: 0;
+}
+
+.item-price span{
+	color: #FF5A00;
+	
+}
+
+.brief-introduction{
+	width: 240px;
+	height: auto;
+	margin-top: 20px;
+	margin-left: 20px;
+	background-color: white;
+	color: #666666;
+	padding-bottom: 30px;
+	float: left;
+}
+
+.tab-normal{
+	width: 120px;
+	height: 51px;
+	text-align: center;
+	line-height: 51px;
+	font-size: 16px;
+	cursor: pointer;
+	float: left;
+}
+
+.tab-click{
+	color: #0CB46A;
+	border-bottom: 2px solid #0CB46A;
+	font-weight: bold;
+}
+
+.brief-info{
+	width: 200px;
+	margin: 5px 20px 0;
+}
+
+.brief-title{
+	font-size: 13px;
+	color: #333333;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+.brief-content{
+	font-size: 13px;
+	color: #151515;
+}
+
+.brief-info-right{
+	width: 200px;
+	margin: 5px 20px 0;
+	display: none;
+}
+
+.brief-info-right-content{
+	color: #666666;
+	font-size: 13px;
+	line-height: 25px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.showinfo{
+	color: #0CB46A;
+	font-size: 13px;
+}
+
+.team{
+	width: 900px;
+	height: 216px;
+	margin-top: 20px;
+	padding: 30px;
+	background-color: white;
+}
+
+.team-par{
+	width: 820px;
+	height: 176px;
+	margin-top: 30px;
+	padding: 0 40px;
+	display: flex;
+	justify-content: space-between;
+	/*border: 1px solid black;*/
+}
+
+.team-item{
+	display: block;
+	width: 108px;
+	height: 170px;
+	/*border: 1px solid blue;*/
+}
+
+.team-item img{
+	width: 108px;
+	height: 108px;
+	border-radius: 50%;
+}
+
+.team-item-name{
+	font-size: 16px;
+	color: #333333;
+	text-align: center;
+	margin: 8px 0 8px 0;
+}
+
+.team-item-detail{
+	font-size: 12px;
+	color: #999999;
+	text-align: center;
+}
+
+.spacialService{
+	width: 900px;
+	height: 144px;
+	margin-top: 20px;
+	padding: 30px;
+	background-color: white;
+}
+
+.spacialService-item-par{
+	width: 900px;
+	height: 104px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	margin-left: 10px;
+}
+
+.spacialService-item{
+	width: 160px;
+	height: 22px;
+	/*border: 1px solid black;*/
+}
+
+.spacialService-item img{
+	width: 22px;
+	height: 22px;
+	margin-right: 10px;
+}
+
+.spacialService-item span{
+	color: #333333;
+	font-size: 16px;
+	position: relative;
+	top: -5px;
+}
+
+.company-honor{
+	width: 900px;
+	height: 223px;
+	margin-top: 20px;
+	padding: 30px;
+	background-color: white;
+}
+
+.honor-par{
+	width: 900px;
+	height: 183px;
+	color: #333333;
+	font-size: 14px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.honor-itme{
+	width: 205px;
+	height: 185px;
+	margin: 0 10px;
+}
+
+.honor-itme img{
+	width: 205px;
+	height: 154px;
+}
+ .honor-itme p{
+ 	text-align: center;
+ 	margin-top: 10px;
+ }

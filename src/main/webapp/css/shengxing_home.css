@@ -1,0 +1,227 @@
+body{
+    margin:0;
+    padding:0;
+    background-image: url("../images/bg04.jpg");
+}
+
+/*轮播图*/
+#nav-carousel img{
+    overflow: hidden;
+}
+
+/*主体部分*/
+.main-container{
+    width: 100%;
+    background-color: #ffffff;
+    margin-top: 50px;
+}
+/*家装公司*/
+.index-common .index-common-header {
+    text-align: center;
+}
+.index-common-header .index-common-title {
+    font-size: 34px;
+    font-weight: 500;
+    text-align: center;
+    padding-top:30px;
+}
+
+.index-common-header .index-common-title a{
+    position: relative;
+}
+
+.index-common-header .index-common-description {
+    display: block;
+    padding: 20px 0;
+    font-size: 15px;
+    color: #999!important;
+    text-align: center;
+}
+
+/*家装公司列表*/
+.index-zzx-company-box {
+    width:1227px;
+    margin:0 auto;
+
+}
+.index-zzx-company a{
+    margin:35px 8px;
+}
+.clearfix {
+    zoom: 1;
+}
+.clearfix:after {
+    content: " ";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    clear: both;
+    zoom: 1;
+}
+.index-zzx-company {
+    font-size: 0;
+
+}
+.zzx-company-list {
+    float: left;
+    width: 290px;
+    height: 400px;
+    margin-top: 40px;
+    background-color: transparent;
+    vertical-align: top;
+    display: inline;
+    zoom: 1;
+    transition: all .5s;
+    background-color: #faf795;
+}
+.zzx-company-list:hover{
+    box-shadow: 0 0 30px #cccccc;
+    transform:scale(1.1);
+    position: relative;
+    z-index: 2000;
+}
+a {
+    cursor: pointer;
+    color: #666;
+    text-decoration: none;
+}
+.zzx-company-img {
+    position: relative;
+    width: 290px;
+    height: 200px;
+    transition: all .5s;
+}
+.company-bag-url {
+    display: block;
+    width: 290px;
+    height: 200px;
+    overflow: hidden;
+    transition: all .5s;
+}
+.company-bag-url img{
+    transition: all .7s;
+}
+
+.company-bag-url img:hover{
+    transform:scale(1.2);
+}
+.zzx-company-bag {
+    width: 290px;
+    height: 200px;
+    transform: all .5s;
+}
+img {
+    border: 0;
+}
+.zzx-company-logo-box {
+    position: absolute;
+    left: 50%;
+    bottom: -45px;
+    width: 90px;
+    height: 90px;
+    margin-left: -45px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 3px rgba(0,0,0,.1);
+}
+.zzx-company-logo {
+    position: absolute;
+    left: 50%;
+    width: 64px;
+    height: 64px;
+    margin-left: -32px;
+    bottom: 13px;
+}
+.zzx-company-tj {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    width: 55px;
+    height: 49px;
+    background: url(../images/index_bg_m.png) no-repeat;
+    background-position: -156px -1px;
+}
+.ad-icon {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 40px;
+    height: 22px;
+    background: url(../images/ad-icon.png) no-repeat;
+}
+.zzx-company-detail {
+    position: relative;
+    width: 288px;
+    height: 139px;
+    padding-top: 64px;
+    border-top: 0;
+    text-align: center;
+    transform: all .5s;
+}
+.zzx-company-detail:hover{
+    width: 298px;
+    height: 149px;
+}
+.zzx-company-name {
+    padding: 0 40px;
+    font-size: 16px;
+    color: #333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 20px;
+}
+
+.zzx-company-data {
+    width:120px;
+    height:45px;
+    line-height: 25px;
+    text-align: center;
+    margin:0 auto;
+}
+.zzx-company-data li {
+    display: inline-block;
+    font-size: 12px;
+    color: #999;
+    display: inline;
+    zoom: 1;
+    text-align: center;
+    margin-left: 10px;
+}
+.zzx-company-data li+li {
+    margin-left: 8px;
+}
+.zzx-company-data .zzx-company-construction {
+    width: 34px;
+}
+
+.zzx-company-data li em, .zzx-company-data li span {
+    float: left;
+    font-style:normal
+}
+.zzx-company-data span {
+    overflow: hidden;
+    width: 27px;
+    color: #ff5a00;
+    text-align: left;
+}
+
+/*横线*/
+.line{
+    display: inline-block;
+    border-bottom: 1px solid #d8d8d8;
+    width:57px;
+    height:1px;
+    padding:0 15px;
+    margin:0 15px;
+    position: absolute;
+}
+.line-left{
+    top:18px;
+    left:-120px;
+}
+.line-right{
+    top:18px;
+    right:-120px;
+}

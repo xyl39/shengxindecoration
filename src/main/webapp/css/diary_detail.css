@@ -1,0 +1,295 @@
+body{
+    margin:0;
+    padding:0;
+    background-image: url("../images/bg04.jpg");
+}
+/*主体部分*/
+.container-main{
+    width:1290px;
+    margin:20px auto;
+
+}
+/*面包屑*/
+.title-breadcurmb{
+    height:48px;
+    line-height: 48px;
+    background-color: #ffffff;
+    border-bottom:1px solid #eaeaea;
+    padding-left:20px ;
+}
+/*业主日记title*/
+.diary-title{
+    width:1290px;
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    border-bottom:1px solid #eaeaea;
+}
+/*业主日记的头像和名称*/
+.author-diary-title{
+    position: relative;
+    width:160px;
+    height:200px;
+}
+.author-info{
+    width:70px;
+    position: absolute;
+    top:30px;
+    left:20px;
+    text-align: center;
+}
+.author-info img{
+    width:60px;
+    height:60px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+/*业主日记标题*/
+.diary-title-right{
+    width:1130px;
+    position: relative;
+}
+.diary-title-name{
+    margin-top:25px;
+    font-size:26px;
+    font-family: "Microsoft YaHei", "微软雅黑", "Microsoft JhengHei", "华文细黑", STHeiti, MingLiu;
+}
+.diary-title-name em{
+    font-size:14px;
+    color:#999;
+    margin-left: 10px;
+    font-style: normal;
+}
+/*发布时间*/
+.diary-items-time{
+    margin:10px 0 20px 0;
+    font-size: 13px;
+    color:#999999;
+    letter-spacing: 0.1em;
+}
+.info-line{
+    height:22px;
+    line-height: 22px;
+    font-size: 13px;
+    margin:5px 0;
+}
+.info-line span:first-child{
+    color:#999999;
+}
+.info-line span~span{
+    display: inline-block;
+    width: 60px;
+    height:22px;
+    border-right: 1px solid #eaeaea;
+    text-align: center;
+}
+.info-line span:last-child{
+    border: 0;
+}
+/*收藏、评论统计*/
+.tag{
+    position: absolute;
+    top:30px;
+    right:200px;
+}
+.tag-ul li{
+    width:55px;
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+    padding:0 25px;
+}
+.tag-ul li:first-child{
+    border-right: 1px solid #eaeaea;
+}
+.tag-info span{
+    font-size: 26px;
+    color:#f25618;
+}
+.tag-info:hover{
+    color: #d5842a;
+}
+/*业主日记 购物清单*/
+.main{
+
+    background-color: #ffffff;
+    display:flex;
+    flex-direction: row;
+}
+.diary-list-title{
+    width:960px;
+}
+#diaty-title{
+    margin-top:20px;
+}
+#diary-title-tab{
+    width:960px;
+    height: 50px;
+    line-height: 60px;
+    border-bottom: 1px solid #eaeaea;
+}
+#diary-title-tab li{
+    width:130px;
+    font-size: 20px;
+}
+#diary-title-tab span{
+    font-size: 14px;
+    color:#999999;
+}
+
+/*时间节点*/
+#diary-list-title .layui-tab-content{
+    width:920px;
+    margin: 10px 0 0 20px;
+}
+
+/*日记图片*/
+.diary-items-photo img{
+    width:152px;
+    height:152px;
+    margin:25px 10px 25px 0;
+    cursor: pointer;
+}
+
+/*回复*/
+.reply{
+    width:866px;
+    border-color: #dffdbc !important;
+}
+.layui-colla-item .colla-title-h2{
+    font-size:16px;
+    background-color: #dffdbc;
+}
+.layui-colla-item .colla-title-h2 img{
+    width: 20px;
+    height: 20px;
+}
+.layui-colla-item .colla-title-h2:hover{
+    color: #d5842a;
+}
+/*回复列表*/
+.reply-list li{
+    display: flex;
+    flex-direction: row;
+    padding:20px 0 30px 0;
+    border-bottom: 1px dotted #eaeaea;
+}
+.reply-headphoto img{
+    width: 50px;
+    height:50px;
+    border-radius: 25px;
+}
+.reply-info{
+    margin-left: 20px;
+}
+.reply-info-detail{
+    margin-bottom: 10px;
+}
+.reply-info-detail span:first-child{
+    color:#000000;
+}
+.reply-info-detail span:nth-child(2){
+    margin-left: 10px;
+    font-size: 13px;
+}
+/*回复评论*/
+.reply-info .reply-info-detail .goto-reply{
+    color:#01af69;
+    text-decoration: none;
+    margin-left: 500px;
+    cursor:pointer;
+    background-color: transparent;
+    border: 0;
+}
+.reply-info .reply-info-detail .goto-reply:hover{
+    color: #d5842a;
+    text-decoration: none;
+
+}
+/*回复内容*/
+.reply-info p{
+    color:#000000;
+}
+
+.reply-div{
+    margin:20px 20px;
+}
+.replyer-info{
+    margin-bottom:10px;
+}
+.replyer-info img{
+    margin-right: 15px;
+}
+/*我来回复*/
+.my-reply{
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0 20px 0;
+}
+.my-reply-content textarea{
+    margin-left: 20px;
+    resize:none;
+    border:1px solid #cccccc;
+}
+.send_reply{
+    float: right;
+    margin-right: 20px;
+}
+.send_reply input[type="submit"]{
+    width:94px;
+    height:36px;
+    margin-left: 10px;
+    background-color: #009688;
+    border: 0;
+    color: #ffffff;
+    cursor:pointer;
+    transition:all 0.5s;
+}
+.send_reply input[type="submit"]:hover{
+    background-color: #00b5a5;
+}
+.reply-content{
+    width: 500px;
+    margin-left: 50px;
+
+}
+.reply-content textarea{
+    resize:none;
+}
+
+/*左边*/
+.side{
+    margin:15px 0 0 40px;
+}
+.side-write{
+    width:245px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 1px;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+/*写装修日记按钮*/
+.side-write-button{
+    background-color: #36B279;
+    color:#ffffff;
+}
+.side-write-button:hover{
+    background-color: #32643a;
+}
+/*写购物清单按钮*/
+.side-write-list{
+    border:1px solid #36B279;
+    color:#36B279;
+}
+.side-write-list:hover{
+    border:1px solid #006400;
+    color: #006400;
+}
+
+
+
+
+
